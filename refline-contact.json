@@ -1,0 +1,356 @@
+{
+  "page": {
+    "slug": "iletisim",
+    "title": "Refline İletişim",
+    "description": "Refline ekibiyle iletişime geçerek iş birliği ve destek taleplerinizi iletin.",
+    "layout": "single-page"
+  },
+  "theme": {
+    "name": "Porto",
+    "palette": {
+      "primary": "#0088cc",
+      "primaryDark": "#005f8c",
+      "secondary": "#e36159",
+      "accent": "#2baab1",
+      "background": "#f7f8fa",
+      "surface": "#ffffff",
+      "text": "#212529",
+      "mutedText": "#6c757d"
+    },
+    "typography": {
+      "heading": "Poppins",
+      "body": "Open Sans"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "background": {
+        "style": "gradient",
+        "colors": ["#031633", "#005f8c"],
+        "overlayOpacity": 0.75
+      },
+      "spacing": {
+        "paddingTop": 120,
+        "paddingBottom": 120
+      },
+      "content": {
+        "eyebrow": {
+          "text": "Bize Ulaşın",
+          "color": "#e36159",
+          "weight": "600",
+          "letterSpacing": 2
+        },
+        "heading": {
+          "text": "Birlikte daha hızlı ilerleyelim",
+          "color": "#ffffff",
+          "size": "display",
+          "weight": "700"
+        },
+        "description": {
+          "text": "Refline ekibi, dijital dönüşüm süreçlerinizde yanınızda. Proje taleplerinizi, destek ihtiyaçlarınızı ve önerilerinizi dakikalar içinde bize iletin.",
+          "color": "#d9e6f2",
+          "maxWidth": 560
+        },
+        "buttons": [
+          {
+            "label": "Toplantı Planla",
+            "style": "solid",
+            "backgroundColor": "#e36159",
+            "textColor": "#ffffff",
+            "hoverBackgroundColor": "#c74f49",
+            "link": "https://refline.pageexample.org/randevu"
+          },
+          {
+            "label": "Destek Talebi Aç",
+            "style": "outline",
+            "borderColor": "#ffffff",
+            "textColor": "#ffffff",
+            "hoverBackgroundColor": "rgba(255,255,255,0.1)",
+            "link": "mailto:destek@refline.com"
+          }
+        ]
+      },
+      "media": {
+        "type": "illustration",
+        "alignment": "right",
+        "image": {
+          "src": "https://cdn.pageexample.org/assets/porto/contact-hero.svg",
+          "alt": "Refline müşteri başarı ekibi"
+        }
+      }
+    },
+    {
+      "id": "contact-info",
+      "type": "feature-grid",
+      "background": {
+        "color": "#f7f8fa"
+      },
+      "spacing": {
+        "paddingTop": 80,
+        "paddingBottom": 60
+      },
+      "layout": {
+        "columns": 3,
+        "gap": 32
+      },
+      "features": [
+        {
+          "icon": {
+            "name": "phone",
+            "library": "feather",
+            "color": "#0088cc"
+          },
+          "title": "Satış ve İş Birliği",
+          "description": "Yeni projelerinizde yanınızdayız. Pazartesi - Cuma 09:00-18:00 arasında bizi arayabilirsiniz.",
+          "links": [
+            {
+              "label": "+90 212 000 00 00",
+              "href": "tel:+902120000000",
+              "color": "#005f8c"
+            },
+            {
+              "label": "sales@refline.com",
+              "href": "mailto:sales@refline.com",
+              "color": "#e36159"
+            }
+          ]
+        },
+        {
+          "icon": {
+            "name": "message-circle",
+            "library": "feather",
+            "color": "#e36159"
+          },
+          "title": "Teknik Destek",
+          "description": "Destek mühendislerimiz, platform sorularınızı ortalama 2 saat içinde yanıtlar.",
+          "links": [
+            {
+              "label": "destek@refline.com",
+              "href": "mailto:destek@refline.com",
+              "color": "#0088cc"
+            },
+            {
+              "label": "Destek Portalı",
+              "href": "https://support.refline.pageexample.org",
+              "color": "#2baab1"
+            }
+          ]
+        },
+        {
+          "icon": {
+            "name": "map-pin",
+            "library": "feather",
+            "color": "#2baab1"
+          },
+          "title": "Merkez Ofis",
+          "description": "Refline Teknoloji, Maslak Mah. Ahi Evran Cad. No:12, Sarıyer / İstanbul",
+          "links": [
+            {
+              "label": "Google Haritalar'da aç",
+              "href": "https://maps.google.com/?q=Refline+Teknoloji",
+              "color": "#005f8c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "form",
+      "background": {
+        "color": "#ffffff"
+      },
+      "spacing": {
+        "paddingTop": 60,
+        "paddingBottom": 80
+      },
+      "card": {
+        "background": "#ffffff",
+        "borderRadius": 16,
+        "shadow": "0 20px 60px rgba(3, 22, 51, 0.08)",
+        "border": "1px solid rgba(0, 136, 204, 0.12)",
+        "maxWidth": 760,
+        "padding": 48
+      },
+      "heading": {
+        "text": "Projenizi Anlatalım",
+        "color": "#031633",
+        "align": "center"
+      },
+      "description": {
+        "text": "Aşağıdaki formu doldurun, en uygun ekip arkadaşımız 24 saat içinde size geri dönüş yapsın.",
+        "color": "#6c757d",
+        "align": "center",
+        "maxWidth": 520
+      },
+      "form": {
+        "submit": {
+          "label": "Mesajımı Gönder",
+          "backgroundColor": "#0088cc",
+          "textColor": "#ffffff",
+          "hoverBackgroundColor": "#005f8c"
+        },
+        "fields": [
+          {
+            "name": "fullName",
+            "label": "Ad Soyad",
+            "type": "text",
+            "placeholder": "Adınızı ve soyadınızı yazın",
+            "required": true
+          },
+          {
+            "name": "email",
+            "label": "Kurumsal E-posta",
+            "type": "email",
+            "placeholder": "ornek@refline.com",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "label": "Telefon",
+            "type": "tel",
+            "placeholder": "+90 ...",
+            "required": false
+          },
+          {
+            "name": "company",
+            "label": "Şirket",
+            "type": "text",
+            "placeholder": "Şirket adınız"
+          },
+          {
+            "name": "projectType",
+            "label": "İlgilendiğiniz Hizmet",
+            "type": "select",
+            "placeholder": "Bir hizmet seçin",
+            "options": [
+              "Dijital Dönüşüm Danışmanlığı",
+              "Bulut Entegrasyonları",
+              "SaaS Platformu Kurulumu",
+              "Destek ve Eğitim"
+            ]
+          },
+          {
+            "name": "message",
+            "label": "Mesajınız",
+            "type": "textarea",
+            "placeholder": "Kısaca nasıl yardımcı olabileceğimizi anlatın",
+            "rows": 5,
+            "required": true
+          },
+          {
+            "name": "kvkk",
+            "label": "KVKK metnini okudum ve onaylıyorum",
+            "type": "checkbox",
+            "required": true,
+            "link": {
+              "label": "KVKK Aydınlatma Metni",
+              "href": "https://refline.pageexample.org/kvkk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "success-metrics",
+      "type": "stats",
+      "background": {
+        "color": "#031633",
+        "pattern": "diagonal-lines",
+        "overlayOpacity": 0.85
+      },
+      "spacing": {
+        "paddingTop": 70,
+        "paddingBottom": 70
+      },
+      "heading": {
+        "text": "Başarı Odaklı Destek",
+        "color": "#ffffff",
+        "align": "center"
+      },
+      "stats": [
+        {
+          "value": "350+",
+          "label": "Tamamlanan Proje",
+          "color": "#e36159"
+        },
+        {
+          "value": "%98",
+          "label": "Müşteri Memnuniyeti",
+          "color": "#2baab1"
+        },
+        {
+          "value": "2 sa.",
+          "label": "Ortalama İlk Yanıt Süresi",
+          "color": "#0088cc"
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "type": "map",
+      "background": {
+        "color": "#ffffff"
+      },
+      "spacing": {
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "map": {
+        "provider": "google",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6017.020266370633!2d29.0092003!3d41.1094892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5895a62d18b%3A0x7b47d7c6a6d7f999!2sRefline%20Teknoloji!5e0!3m2!1str!2str!4v1700000000000",
+        "height": 420,
+        "borderRadius": 0,
+        "overlayCard": {
+          "title": "Bizi Ziyaret Edin",
+          "text": "Ofisimiz teknoloji şirketlerinin kalbi Maslak'ta. Toplantı öncesi randevu almayı unutmayın.",
+          "background": "rgba(3, 22, 51, 0.92)",
+          "textColor": "#ffffff",
+          "accentColor": "#e36159"
+        }
+      }
+    },
+    {
+      "id": "cta",
+      "type": "call-to-action",
+      "background": {
+        "color": "#0088cc"
+      },
+      "spacing": {
+        "paddingTop": 60,
+        "paddingBottom": 60
+      },
+      "content": {
+        "heading": {
+          "text": "Birlikte yeni başarı hikâyeleri yazalım",
+          "color": "#ffffff"
+        },
+        "description": {
+          "text": "Refline çözümleriyle işletmenizi büyütmek için hemen danışmanlarımızdan biriyle görüşün.",
+          "color": "#f5fbff",
+          "maxWidth": 540
+        },
+        "buttons": [
+          {
+            "label": "Hemen İletişime Geç",
+            "style": "solid",
+            "backgroundColor": "#e36159",
+            "textColor": "#ffffff",
+            "hoverBackgroundColor": "#c74f49",
+            "link": "mailto:iletisim@refline.com"
+          },
+          {
+            "label": "Bizi Takip Et",
+            "style": "ghost",
+            "textColor": "#ffffff",
+            "borderColor": "rgba(255,255,255,0.6)",
+            "hoverBackgroundColor": "rgba(255,255,255,0.2)",
+            "link": "https://www.linkedin.com/company/refline"
+          }
+        ]
+      }
+    }
+  ]
+}
